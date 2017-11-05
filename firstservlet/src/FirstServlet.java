@@ -16,7 +16,7 @@ public void doPost(HttpServletRequest request, HttpServletResponse response)
     response.setContentType("text/html");  
     PrintWriter out = response.getWriter();  
           
-    String name=request.getParameter("username");  
+    String name=request.getParameter("userna");  
     String pass=request.getParameter("userpass");  
           
     if(LoginDao.validate(name, pass)){  
