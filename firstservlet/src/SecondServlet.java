@@ -16,7 +16,7 @@ public void doPost(HttpServletRequest request, HttpServletResponse response)
           
     String n=request.getParameter("username");  
     out.print("Welcome "+n);  
-    response.sendRedirect("http://www.fb.com");
+    //response.sendRedirect("http://www.fb.com");
           
     out.close();  
     }  
